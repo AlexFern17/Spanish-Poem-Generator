@@ -1,3 +1,58 @@
 body {
+  background: linear-gradient(
+    102.7deg,
+    rgb(253, 218, 255) 8.2%,
+    rgb(223, 173, 252) 19.6%,
+    rgb(173, 205, 252) 36.8%,
+    rgb(173, 252, 244) 73.2%,
+    rgb(202, 248, 208) 90.9%
+  );
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  max-height: 800px;
   text-align: center;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+form {
+  padding: 25px;
+  display: block;
+}
+
+.instructions {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b9b7b7;
+  width: 80%;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b9b7b7;
+  background-color: white;
+}
+
+.poem {
+  padding: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 11px;
+  padding: 10px;
 }
