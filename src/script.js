@@ -5,13 +5,9 @@ function generatePoem(event) {
     strings: ["123"],
     autoStart: true,
     delay: 1,
-    cursor: "|",
+    cursor: "",
   });
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
-if (poemFormElement) {
-  poemFormElement.addEventListener("submit", () => {
-    console.log("working");
-  });
-}
+poemFormElement.addEventListener("submit", generatePoem);
